@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #2c2c2c;
+}
+
+#cabecalho {
+  width: 375px;
+  height: 66px;
+  background: #9657a5;
+  margin-left: auto; /* truque usado para alinhar elementos que não são texto no caso a div toda*/
+  margin-right: auto; /* truque usado para alinhar elementos que não são texto no caso a div toda*/
+  margin-top: 70px; /* truque usado para alinhar elementos que não são texto no caso a div toda*/
+}
+
+h1 {
+  color: #f4f4f4;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#caixa-principal {
+  background: #e5e5e5;
+  width: 375px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragrafo {
+  margin-bottom: 6px; /* paddin é um espaçamento na parte de dentro da caixa e o margin na parte de fora da caixa*/
+  color: #777777;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+.select {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 327px;
+  margin-bottom: 23px;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#input {
+  width: 327px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  margin-bottom: 23px;
+  outline: none;
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#botao {
+  background: #cdd728;
+  border-radius: 25px;
+  display: block;
+  height: 48px;
+  width: 327px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 23px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f4f4f4;
+  outline: none;
+}
+
+#botao:active {
+  opacity: 0.6;
+}
+
+#caixa-interna {
+  border: 1px solid #9657a5;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.caixa-menor {
+  text-align: center;
+}
+
+#seta {
+  display: block; /* truque usado para alinhar elementos que não são textos */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.paragrafo-negrito {
+  font-weight: bold;
+  font-size: 20px;
+}
